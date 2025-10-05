@@ -8,7 +8,8 @@ body {
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-              url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Macbeth_and_Banquo_meet_the_Witches.jpg') center/cover no-repeat;
+              url('https://leedsliving.co.uk/wp-content/uploads/2024/03/Elkanah-Wilder-Karina-Jones-and-Charlotte-Arrowsmith-Witches-with-Ash-Hunter-Macbeth.-Pic-Kirsten-McTernan-2.jpg') 
+              center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 3rem 1rem;
@@ -82,6 +83,26 @@ th, td {
   font-style: italic;
   color: #444;
   margin-top: 0.5rem;
+}
+
+.statement {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f9f6f2;
+  border-left: 5px solid #8b0000;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.statement p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.statement h2 {
+  margin-top: 0;
+  color: #2c2c2c;
 }
 
 footer {
