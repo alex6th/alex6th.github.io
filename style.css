@@ -5,7 +5,15 @@ body {
   color: #222;
   line-height: 1.6;
 }
-
+.marquee {
+  background-color: #FF0000;
+  font-family: "Arial";
+  line-height: 1.3;
+  font-color: #FFFFFF;
+  text-align: center;
+  padding: 1rem 1rem;
+  
+}
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
               url('https://leedsliving.co.uk/wp-content/uploads/2024/03/Elkanah-Wilder-Karina-Jones-and-Charlotte-Arrowsmith-Witches-with-Ash-Hunter-Macbeth.-Pic-Kirsten-McTernan-2.jpg') 
@@ -150,5 +158,6 @@ footer {
     font-size: 0.8rem;
   }
 }
+
 
 
