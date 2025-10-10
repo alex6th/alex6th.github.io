@@ -7,7 +7,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <span class = marquee><h3><marquee>TICKETS ONSALE OCTOBER 13TH @ 9:00PM!</marquee></h3></span>
+  <marquee class="tickets" behaviour="scroll" direction="left" scrollamount="5">
+      TICKETS ONSALE 13TH OCTOBER @ <span id ="time"></span>!
+  </marquee>
+  <script>
+    function localTime() {
+      const now = new Date();
+      const options = {
+        weekday: 'short',
+        day: 'numeric',
+        month: 'short',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true,
+        timeZoneName: 'short',
+      };
+      document.getElementById("time").textContent = now.toLocaleString[(), options];
+    }
+  </script>
   <header>
     <h1>Macbeth</h1>
     <p class="tagline">A gripping performance of Shakespeare's timeless tragedy</p>
@@ -41,7 +58,7 @@
       <li><strong>Venue:</strong> The Globe Theatre, London</li>
       <li><strong>Dates:</strong> 25th - 27th October 2025</li>
       <li><strong>Show Times:</strong> 7:30 PM (Evening Performances)</li>
-      <li><strong>Tickets:</strong> Available at the theatre box office or online soon</li>
+      <li><strong>Tickets:</strong> October 13th @ 9:00PM BST</li>
     </ul>
   </section>
 
@@ -77,6 +94,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
