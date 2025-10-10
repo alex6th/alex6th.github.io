@@ -24,6 +24,8 @@
       };
       document.getElementById("time").textContent = now.toLocaleString([], options);
     }
+    updateLocalTime();
+    setInterval(updateLocalTime, 60000);
   </script>
   <header>
     <h1>Macbeth</h1>
@@ -94,6 +96,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
